@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:#773939;">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-light" href="#">Receitas Deliciosas</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="receitas.html">Receitas</a>
+          </li>
+          <li class="nav-item active text-light">
+            <a class="nav-link" href="cadastro.html">Cadastro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="text-light">Faça seu Cadastro</h1>
+    <form class="w-75">
+        <div class="form-group row mb-3">
+            <label for="name" class="col-sm-2 col-form-label text-light">Nome</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="name" placeholder="Nome">
+            </div>
+        </div>
+        <div class="form-group row mb-3">
+            <label for="email" class="col-sm-2 col-form-label text-light">E-mail</label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+        </div>
+        <div class="form-group row mb-3">
+            <label for="cep" class="col-sm-2 col-form-label text-light">CEP</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="cep" placeholder="CEP">
+            </div>
+        </div>
+        <div class="form-group row mb-3">
+            <label for="rua" class="col-sm-2 col-form-label text-light">Rua</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="rua" placeholder="Rua">
+            </div>
+            <label for="complemento" class="col-sm-2 col-form-label text-light">Complemento</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="complemento" placeholder="Complemento">
+            </div>
+        </div>
+        <div class="form-group row mb-3">
+            <label for="cidade" class="col-sm-2 col-form-label text-light">Cidade</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="cidade" placeholder="Cidade">
+            </div>
+            <label for="uf" class="col-sm-2 col-form-label text-light">UF</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="uf" placeholder="UF">
+            </div>
+        </div>
+        <div class="form-group row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </div>
+    </form>
+  </div>
+</body>
+</html>
