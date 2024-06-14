@@ -1,0 +1,12 @@
+body {
+    padding-top: 56px;
+  }
+ .italic{
+  font-style: italic;
+ }
+ li{
+  padding-bottom:10px;
+ }
+ ol{
+  font-style: italic;
+ }
